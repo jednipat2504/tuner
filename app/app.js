@@ -32,7 +32,7 @@ Application.prototype.start = function () {
     }
   };
 
-  swal.fire("ดนตรีไทย Tuner").then(function () {
+  swal.fire("Jednipat Tuner").then(function () {
     self.tuner.init();
     self.frequencyData = new Uint8Array(self.tuner.analyser.frequencyBinCount);
   });
